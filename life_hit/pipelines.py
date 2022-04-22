@@ -46,7 +46,7 @@ class LifeHitPipeline:
                                 max_words=100,
                                 scale=5,
                                 contour_width=3,
-                                contour_color='pink')\
+                                contour_color="white")\
                     .generate(bullet_chat)
 
         plt.axis("off")
